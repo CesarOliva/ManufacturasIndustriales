@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metaetiquetas-->
+    <meta charset="UTF-8">
+    <meta name="author" content="César Oliva">
+    <meta name="description" content="Somos una empresa de innovación en maquinado con una trayectoria de 35 años de experiencia en la fabricación y reparación de piezas industriales." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="Imagenes/Logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="100">
+    <meta property="og:image:height" content="100">
+    <title>Manufacturas Industriales MTY</title>
+    <!--Scripts y links-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/17383348a8.js" crossorigin="anonymous"></script>    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Imagenes/Logo.png" type="image/png" />
+</head>
+<body class="bg-[#EBEBEB]">
+    <header class="bg-[#d3d8de] px-4 py-2">
+        <nav class="flex items-center flex-wrap justify-center md:justify-between">
+            <img src="Imagenes/Logo.png"
+                alt="Logo Manufacturas Industriales MTY" 
+                class="h-24 mx-4 mb-4 md:mb-0"
+            >
+            <ul class="flex gap-x-5 text-lg md:text-[19px] mr-0 md:mr-8 text-[#1962a1]">
+                <li class="active hover:text-[#FF0000] "><a href="#">Inicio</a></li>
+                <li class="hover:text-[#FF0000]"><a href="/nosotros.html">Nosotros</a></li>
+                <li class="hover:text-[#FF0000]"><a href="/productos.html">Servicios</a></li>
+                <li class="hover:text-[#FF0000]"><a href="/equipo.html">Equipo</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="relative w-full h-[100vh] overflow-hidden flex items-center justify-center items-center sm:items-start main flex-col justify-center pl-3 pr-3 md:pl-24 md:pr-0 gap-y-3 text-white">
+        <video class="opacity-[60%] absolute top-0 left-0 w-full h-full object-cover z-0" autoplay muted loop>
+            <source src="Imagenes/background.mp4" type="video/mp4">
+        </video>
+        <div class="relative z-1 text-white">
+            <h1 class="text-4xl leading-relaxed text-center md:text-start font-semibold">Manufacturas Industriales MTY</h1>
+            <h3 class="text-center sm:text-start text-xl md:text-2xl md:max-w-128 leading-relaxed mb-2">Diseño y fabricación de equipo y maquinado industrial. <br>Alto Sistema de calidad</h3>
+            <div class="flex justify-center sm:justify-start">
+                <button class="bg-[#FF0000] hover:bg-[#1962a1] w-32 py-1 rounded-lg text-white text-xl"><a href="https://api.whatsapp.com/send?phone=528281210290" target="_blank">Contacto</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto w-full flex justify-center my-12 md:my-16">
+        <div class="formulario bg-white w-[90%] md:w-[70%] lg:w-[50%] rounded-3xl">
+            <form class="flex flex-col p-12 md:p-16">
+                <h2 class="text-center text-3xl mb-8">Contacto</h2>
+
+                <label for="name">Nombre:</label>
+                <input class="bg-[#EBEBEB] p-2 my-2 rounded-lg" type="text" name="Nombre" id="name" placeholder="Nombre">
+                
+                <label for="empresa">Empresa:</label>
+                <input class="bg-[#EBEBEB] p-2 my-2 rounded-lg" type="text" name="Empresa" id="empresa" placeholder="Empresa">
+
+                <label for="Telefono">Teléfono:</label>
+                <input class="bg-[#EBEBEB] p-2 my-2 rounded-lg" type="tel" name="Telefono" id="phone" placeholder="Teléfono">
+
+                <label for="mail">Correo:</label>
+                <input class="bg-[#EBEBEB] p-2 my-2 rounded-lg" type="email" name="Correo" id="email" placeholder="Correo">
+                                
+                <label for="message" class="mensaje">Mensaje:</label>
+                <textarea class="bg-[#EBEBEB] p-2 my-2 rounded-lg" name="Mensaje" id="message" cols="30" rows="5" placeholder="Motivo de Contacto"></textarea>
+                <div class="enviar w-full flex justify-center mt-4">
+                    <input class="bg-[#FF0000] hover:bg-[#1962a1]  w-32 py-1 rounded-lg text-white text-xl" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="w-full bg-[#191919] py-8 text-white flex justify-center">
+        <div class="w-[100%] md:w-[90%] lg:w-[80%] flex justify-center md:flex-nowrap text-center text-[16px] md:text-[18px]">
+            <div>
+                <p>© 2025 Manufacturas Industriales MTY</p>
+
+                <div class="text-[35px] my-4 flex justify-center">
+                    <div class="w-14 h-14 mx-2 flex justify-center items-center rounded-[50%] bg-[#ef5451]">
+                        <a href="mailto:manuxfacturasindustriales@gmail.com" target="_blank">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="enlaces flex flex-col gap-y-2">
+                    <a class="hover:text-[#1962a1]" href="mailto:manuxfacturasindustriales@gmail.com">manuxfacturasindustriales@gmail.mx</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="wpp">
+        <a href="mailto:manuxfacturasindustriales@gmail.com" target="_blank">
+            <img src="Imagenes/mail.png" alt="Contactanos" class="w-16 md:w-18 bg-white rounded-[50%]">
+        </a>
+    </div>
+</body>
+</html>

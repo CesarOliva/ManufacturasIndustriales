@@ -1,0 +1,21 @@
+* {
+  font-family: "Poppins";
+}
+
+li.active a {
+  border-bottom: 2px solid red;
+}
+
+section.main {
+  background-color: #1962a1;
+}
+
+video{
+    object-position: center center;
+}
+
+.wpp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
