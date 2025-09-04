@@ -4,6 +4,7 @@
     const nextBtn = document.querySelector('.next');
     
     // Configuración del slider
+    let currentIndex = 0;
     const cardWidth = 320; // Ancho de la tarjeta + gap
     const cardCount = document.querySelectorAll('.card').length;
     
