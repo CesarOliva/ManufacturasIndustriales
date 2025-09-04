@@ -47,10 +47,92 @@
         </div>
     </section>
 
+    <section class="quienes-somos w-full flex justify-center py-8">
+        <div class="w-[90%] md:w-[70%] flex flex-row flex-wrap justify-center items-center">
+            <div class="w-full md:w-[50%] pr-0 md:pr-4 mb-6 md:mb-0 flex justify-center">
+                <img src="Imagenes/Logo.png" alt="Logo Manufacturas Industriales" class="max-w-[400px]">
+            </div>
+            <div class="w-full md:w-[50%] pl-0 md:pl-4">
+                <h2 class="mb-3 text-3xl text-center md:text-start text-[#1962a1] font-semibold">Manufacturas Industriales MTY</h2>
+                <p class="mb-1 text-lg text-center md:text-start">Somos una empresa de innovación en maquinado con una trayectoria de 35 años de experiencia en la fabricación y reparación de piezas industriales.</p>
+                <p class="text-lg text-center md:text-start">Gracias a nuestra infraestructura, avanzada tecnología, personal altamente calificado y alianzas estratégicas, garantizamos que con Manufacturas Industriales usted obtendrá sus materiales en tiempo y forma.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="servicios w-full flex justify-center py-8">
+        <div class="w-[80%] md:w-[70%] flex flex-col justify-center">
+            <h3 class="text-center font-semibold text-[#1962a1] text-3xl mb-4">Retrabajos</h3>
+            <p class="text-xl text-center mb-4">Modificaciones a materias primas</p>
+
+            <div class="relative">
+                <div class="card-slider flex overflow-x-auto pb-8 gap-6" id="cardSlider">
+                    <div class="card w-80 bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col">
+                        <div class="">
+                            <img class="max-h-64 mx-auto" src="Imagenes/Retrabajos/barrenos.webp" alt="Manufacturas Industriales - Barrenos">
+                        </div>
+                        <div class="p-6 flex-grow">
+                            <h3 class="text-2xl text-center font-bold text-primary mb-2">Barrenos</h3>
+                        </div>
+                    </div>                    
+
+                    <div class="card w-80 bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col">
+                        <div class="">
+                            <img class="max-h-64 mx-auto"  src="Imagenes/Equipo/Fresadora.png" alt="Manufacturas Industriales - Rebajes">
+                        </div>
+                        <div class="p-6 flex-grow">
+                            <h3 class="text-2xl text-center font-bold text-primary mb-2">Rebajes</h3>
+                        </div>
+                    </div>
+                    <div class="card w-80 bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col">
+                        <div class="">
+                            <img class="max-h-64 mx-auto" src="Imagenes/Equipo/MaquinadoVertical.png" alt="Manufacturas Industriales - Angulos">
+                        </div>
+                        <div class="p-6 flex-grow">
+                            <h3 class="text-2xl text-center font-bold text-primary mb-2">Angulos</h3>
+                        </div>
+                    </div>
+                    <div class="card w-80 bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col">
+                        <div class="">
+                            <img class="max-h-64 mx-auto"  src="Imagenes/Retrabajos/roscas.webp" alt="Manufacturas Industriales - Roscas">
+                        </div>
+                        <div class="p-6 flex-grow">
+                            <h3 class="text-2xl font-bold text-center text-primary mb-2">Roscas</h3>
+                        </div>
+                    </div>
+                    <div class="card w-80 bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col">
+                        <div class="">
+                            <img class="max-h-64 mx-auto"  src="Imagenes/Retrabajos/rebabas.webp" alt="Manufacturas Industriales - Rebabas">
+                        </div>
+                        <div class="p-6 flex-grow">
+                            <h3 class="text-2xl text-center font-bold text-primary mb-2">Rebabas</h3>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- Flechas de navegación -->
+                <button class="prev absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-5 bg-white rounded-full shadow-md p-3 text-primary hover:text-secondary transition hidden md:block">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="next absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-5 bg-white rounded-full shadow-md p-3 text-primary hover:text-secondary transition hidden md:block">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section class="ubicacion bg-[#d3d8de]">
+        <h4 class="text-center text-3xl font-semibold text-[#1962a1] py-8">Planta Monterrey, Nuevo León, México</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230187.0555321525!2d-100.4738135948281!3d25.64898478105676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629531b437f8f5%3A0xa3d3d3ca6ac89894!2sMonterrey%2C%20N.L.!5e0!3m2!1ses!2smx!4v1756928428999!5m2!1ses!2smx" 
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        class="w-full h-[70vh]"></iframe>
+    </section>
+
     <section class="contacto w-full flex justify-center my-12 md:my-16">
         <div class="formulario bg-white w-[90%] md:w-[70%] lg:w-[50%] rounded-3xl">
-            <form class="flex flex-col p-12 md:p-16">
-                <h2 class="text-center text-3xl mb-8">Contacto</h2>
+            <form class="flex flex-col p-10 md:p-16">
+                <h2 class="text-center text-3xl mb-8">Contactanos para más información</h2>
 
                 <label for="name">Nombre:</label>
                 <input class="bg-[#EBEBEB] p-2 my-2 rounded-lg" type="text" name="Nombre" id="name" placeholder="Nombre">
@@ -65,7 +147,7 @@
                 <input class="bg-[#EBEBEB] p-2 my-2 rounded-lg" type="email" name="Correo" id="email" placeholder="Correo">
                                 
                 <label for="message" class="mensaje">Mensaje:</label>
-                <textarea class="bg-[#EBEBEB] p-2 my-2 rounded-lg" name="Mensaje" id="message" cols="30" rows="5" placeholder="Motivo de Contacto"></textarea>
+                <textarea class="min-h-[50px] max-h-[200px] bg-[#EBEBEB] p-2 my-2 rounded-lg" name="Mensaje" id="message" cols="30" rows="5" placeholder="Motivo de Contacto"></textarea>
                 <div class="enviar w-full flex justify-center mt-4">
                     <input class="bg-[#FF0000] hover:bg-[#1962a1]  w-32 py-1 rounded-lg text-white text-xl" type="submit" value="Enviar">
                 </div>
@@ -98,5 +180,7 @@
             <img src="Imagenes/mail.png" alt="Contactanos" class="w-16 md:w-18 bg-white rounded-[50%]">
         </a>
     </div>
+
+    <script src="main.js"></script>
 </body>
 </html>

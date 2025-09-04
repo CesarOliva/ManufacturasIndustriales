@@ -10,6 +10,13 @@ section.main {
   background-color: #1962a1;
 }
 
+section.quienes-somos{
+  background-image: url("Imagenes/background.png");
+}
+section.quienes-somos img{
+  width: -webkit-fill-available;
+}
+
 video{
     object-position: center center;
 }
@@ -18,4 +25,24 @@ video{
   position: fixed;
   bottom: 20px;
   right: 20px;
+}
+
+.card-slider {
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.card {
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+}
+
+/* Ocultar barras de desplazamiento */
+.card-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.card-slider {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
